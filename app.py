@@ -355,7 +355,7 @@ def print_banner():
               ███    ███                                                          
 
 {CYAN}[>] {YELLOW}SYSTEM OVERRIDE INITIATED...
-{CYAN}[>] {YELLOW}AUTHORIZATION: {RED}LEO MDZ PC {YELLOW}(GHOST PROTOCOL)
+{CYAN}[>] {YELLOW}AUTHORIZATION: {RED}KRISHNA-PC {YELLOW}(GHOST PROTOCOL)
 {CYAN}[>] {YELLOW}ESTABLISHING SECURE UPLINK TO TARGET SERVERS...
 {GREEN}=============================================================================={RESET}
 """
@@ -398,5 +398,5 @@ if __name__ == '__main__':
         print(f"\n{YELLOW}[!] CONNECTION SEVERED. INITIATING CLEANUP...{RESET}")
         remove_config()
         server.shutdown()
-        print(f"{CYAN}[>] LEO MDZ PC OUT. 💀{RESET}\n")
+        print(f"{CYAN}[>] KRISHNA-PC OUT. 💀{RESET}\n")
         sys.exit(0)
