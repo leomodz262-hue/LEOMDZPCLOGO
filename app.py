@@ -203,7 +203,7 @@ def forward_majorlogin_request(modified_game):
         "Content-Type": "application/octet-stream",
         "X-Unity-Version": "2018.4.11f1",
         "X-GA": "v1 1",
-        "ReleaseVersion": "OB54"
+        "ReleaseVersion": "OB55"
     }
     resp = requests.post(MAJOR_LOGIN_URL, data=encrypted, headers=headers, verify=False, timeout=10)
     return resp.content if resp.status_code == 200 else None
